@@ -1,0 +1,28 @@
+/seg-active-sync/seg-active-sync.iml
+/seg-admin-web/node/
+/seg-admin-web/dist/
+/seg-admin-web/coverage/
+/seg-admin-web/app/**/*.js
+/seg-admin-web/app/**/*.js.map
+/seg-active-sync/target
+/seg-http-listener/src/main/resources/AdminUI
+/seg-assembly/src/main/resources/config/build-info.json
+/.idea/*
+*.iml
+*.log
+*/logs
+*/content-logs
+*/target/*
+*historical_request_snapshot*
+.idea/
+.vertx/
+*.DS_Store
+*/target/
+/target
+logs/
+# Don't commit locally generated krb5.conf into GIT. We explicitly exclude any locally generated krf5.conf file from build artifact.
+*krb5.conf
+# No need to commit any change in proxy-config.json. Installer generate this file at runtime.
+seg-assembly/src/main/resources/config/proxy-config.json
+seg-http-listener/src/test/resources/com/airwatch/seg/appconfig/config/proxy-config.json
+/**/config/logback.xml.bak
