@@ -2,8 +2,8 @@ package com.lld.splitwise.services;
 
 import com.lld.splitwise.model.Expense;
 import com.lld.splitwise.model.Split.Split;
-import com.lld.splitwise.model.Split.SplitFactory;
-import com.lld.splitwise.model.Split.SplitService;
+import com.lld.splitwise.services.split.SplitFactory;
+import com.lld.splitwise.services.split.SplitService;
 import com.lld.splitwise.model.Split.SplitType;
 import com.lld.splitwise.model.User;
 

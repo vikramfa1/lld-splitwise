@@ -1,4 +1,6 @@
-package com.lld.splitwise.model.Split;
+package com.lld.splitwise.services.split;
+
+import com.lld.splitwise.model.Split.Split;
 
 import java.util.List;
 

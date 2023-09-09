@@ -1,4 +1,6 @@
-package com.lld.splitwise.model.Split;
+package com.lld.splitwise.services.split;
+
+import com.lld.splitwise.model.Split.Split;
 
 import java.util.List;
 
@@ -10,7 +12,7 @@ public class EqualSplitType implements SplitService{
         double splitAmt = expenseAmt/cnt;
         boolean res = true;
         for(Split split: splitList) {
-            if(split.amountOwe != splitAmt) {
+            if(split.getAmountOwe() != splitAmt) {
                 return false;
             }
         }
